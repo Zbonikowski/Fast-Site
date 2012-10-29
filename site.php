@@ -196,7 +196,7 @@
 			$out.="</html>";
 			return $out;
 		}
-		public function _debug(){
+		private function _debug(){
 			echo "<pre style='bottom: 0;height: 200px;margin: 0;overflow: auto;padding: 0;position: fixed;width: 100%;border:1px dotted #999;'>";
 			echo "metaType:";
 			printf($this->metaType);
